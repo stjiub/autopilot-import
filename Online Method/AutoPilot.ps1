@@ -17,6 +17,9 @@ Azure app client secret used to authenticate
 .PARAMETER TenantId
 Azure tenant id used to authenticate
 
+.PARAMETER AuthFile
+A file containing the ClientId, ClientSecret, and TenantId.
+
 .PARAMETER GroupTag
 Assign the device a specific AutoPilot group tag
 #>
